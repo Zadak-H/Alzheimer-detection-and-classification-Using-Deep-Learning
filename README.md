@@ -28,7 +28,18 @@ As Alzheimer can not only be found with cognitive ability testing, but also thro
 > *This project will go through various Deep Learning models from Convolutional Neural Network models using reLU for Detection and Classification.
 In this Project I will use GANs for Superresolution the images and then I will use GANs for Synthetic Image generation For getting more test and train images.*
 
+##About Dataset
+###Alzheimer MRI Preprocessed Dataset (128 x 128)
 
+>*The Data is collected from several websites/hospitals/public repositories.
+The Dataset is consists of Preprocessed MRI (Magnetic Resonance Imaging) Images.
+All the images are resized into 128 x 128 pixels.
+The Dataset has four classes of images.
+The Dataset is consists of total 6400 MRI images.
+Class - 1: Mild Demented (896 images)
+Class - 2: Moderate Demented (64 images)
+Class - 3: Non Demented (3200 images)
+Class - 4: Very Mild Demented (2240 images)*
 
 ## Conclusions
 
