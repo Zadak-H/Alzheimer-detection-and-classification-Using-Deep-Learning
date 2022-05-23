@@ -1,6 +1,6 @@
 # Alzheimer-detection-and-classification-Using-Deep-Learning
 
-# **1. Problem Definition**
+## **Problem Definition**
 
 >*Alzheimer is known the most for the causes of dementia. It takes 2/3 of the whole dementia popilation, while the cause is still unknown. According to papers from Lancet neurology, even the old theory such as neural inflations, which was disregarded as the cause compared to tau-protein, beta-amiloids, and genetic factors (Apo E4).*
 
@@ -23,7 +23,7 @@ Thus, having an AI that detects alzheimer dementia in the early stage can allow 
 
 As Alzheimer can not only be found with cognitive ability testing, but also through MRI or CT by looking at the ventricles of the brain and cortical atrophy, the theoratical foundation on this project is solid. Doctors find the patient with Alzheimer's have a brain that have enlarged ventricles (that lies in the center of the brain) as well as thinner cortical grey area of the brain.
 
-# **2. Solution Specification**
+## **Solution Specification**
 
 > *This project will go through various Deep Learning models from Convolutional Neural Network models using reLU for Detection and Classification.
 In this Project I will use GANs for Superresolution the images and then I will use GANs for Synthetic Image generation For getting more test and train images.*
