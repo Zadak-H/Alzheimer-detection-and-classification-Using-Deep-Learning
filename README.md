@@ -30,7 +30,7 @@ In this Project I will use GANs for Superresolution the images and then I will u
 
 ## About Dataset
 
-## Alzheimer MRI Preprocessed Dataset (128 x 128)
+### Alzheimer MRI Preprocessed Dataset (128 x 128)
 
 >*The Data is collected from several websites/hospitals/public repositories. <br>
 The Dataset is consists of Preprocessed MRI (Magnetic Resonance Imaging) Images. <br>
