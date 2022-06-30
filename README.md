@@ -87,7 +87,7 @@ In our project we used **80% for Train** , **10% for Test**, and **10% for Valid
 
 ## Conclusions
 
-By (1) list-wise removing missing data; (2) converting the classification problem to a binary one and standardizing features; and (3) manually setting the probability threshold for disease detection to 0.35, I was able to achieve **0.99 recall** and **0.99 accuracy** from my best model, a soft voting ensemble classifier made up of a guassianNB, and an AdaBoost classifier. Also i have choose this model because of the confusion matrix which is more better than other nodels.
+By (1) using DCGANs generate Synthetic Image data; (2) Using SRGANs to super resolutions the synthetic images; and (3) manually setting the CNN model, I was able to achieve **0.99 recall** and **0.99 accuracy** from my best model, Rescaling -> Conv2D -> MaxPooling 2D -> Conv2D -> MaxPooling 2D -> Dropout -> Conv2D -> MaxPooling 2D -> Dropout -> Flatten -> Dense -> Dense -> Dense ,  which is more better than other nodels.
 
 ## Libraries
 
