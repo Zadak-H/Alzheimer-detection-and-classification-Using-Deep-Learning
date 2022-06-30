@@ -42,7 +42,6 @@ Class - 2: Moderate Demented (64 images) <br>
 Class - 3: Non Demented (3200 images) <br>
 Class - 4: Very Mild Demented (2240 images)*
 
-![Data](Output/data.png)
 
 ### The Random image collected from 4 Classes ->
 ![Input Data](Output/Image.png)
@@ -64,6 +63,18 @@ Generative Adversarial Networks (GANs) are one of the most interesting ideas in 
 
 ### DCGANs Loss and Score
 ![Loss](Output/ganLoss.png) ![Score](Output/ganScore.png)
+
+### New Generated Alzheimer MRI Preprocessed Dataset
+
+>*The Dataset is consists of Preprocessed MRI (Magnetic Resonance Imaging) Images. <br>
+The Dataset has four classes of images. <br>
+The Dataset is consists of total 6856 MRI images. <br>
+Class - 1: Mild Demented (1352 images) <br>
+Class - 2: Moderate Demented (64 images) <br>
+Class - 3: Non Demented (3200 images) <br>
+Class - 4: Very Mild Demented (2240 images)*
+
+![Data](Output/data.png)
 
 ## Classification And Prediction
 In our model we have used the CNN2D for classification and prediction purpose and it gives an excelent accurecy with very minimum loss.
