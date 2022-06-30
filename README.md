@@ -42,6 +42,49 @@ Class - 2: Moderate Demented (64 images) <br>
 Class - 3: Non Demented (3200 images) <br>
 Class - 4: Very Mild Demented (2240 images)*
 
+![Data](Output/data.png)
+
+### The Random image collected from 4 Classes ->
+![Input Data](Output/Image.png)
+
+## EDA and Preprocessing
+Firstly, GANs will be applied to generate some more images as a datatset, then if it is implemeted successfully then we will try SRGANs for getting better resolution and will use this as a data preprocessed.
+
+### What is DCGANS ?
+Generative Adversarial Networks (GANs) are one of the most interesting ideas in computer science today. Two models are trained simultaneously by an adversarial process. A generator ("the artist") learns to create images that look real, while a discriminator ("the art critic") learns to tell real images apart from fakes. During training, the generator progressively becomes better at creating images that look real, while the discriminator becomes better at telling them apart. The process reaches equilibrium when the discriminator can no longer distinguish real images from fakes.
+
+## Our GANs Model
+![GAN MODEL](Output/GanModel.png)
+
+### Real Input Exaple and Noisy Fake Input Data
+![Real](Output/batchinput.png) ![Fake](Output/fakeimage.png)
+
+### Synthetic Input Dataset Creation using DCGANs
+![Real](Output/syntheticimage.png)
+
+### DCGANs Loss and Score
+![Loss](Output/ganLoss.png) ![Score](Output/ganScore.png)
+
+## Classification And Prediction
+In our model we have used the CNN2D for classification and prediction purpose and it gives an excelent accurecy with very minimum loss.
+
+### CNN Model
+![CNN model](Output/CnnModel.png)
+
+### Train, Test & Validation
+In our project we used **80% for Train** , **10% for Test**, and **10% for Validation**
+
+## Training, Accuracy and Validation Plot
+### Training data accuracy and loss
+![ACC_Loss](Output/trainingdataAcc_loss.png)
+### Training and Validation Accuracy
+![Acc](Output/Acc.png)
+### Training and Validation Loss
+![train_val_loss](Output/train_val_loss.png)
+
+## Prediction 
+![Prediction](Output/Prediction.png)
+
 ## Conclusions
 
 By (1) list-wise removing missing data; (2) converting the classification problem to a binary one and standardizing features; and (3) manually setting the probability threshold for disease detection to 0.35, I was able to achieve **0.99 recall** and **0.99 accuracy** from my best model, a soft voting ensemble classifier made up of a guassianNB, and an AdaBoost classifier. Also i have choose this model because of the confusion matrix which is more better than other nodels.
