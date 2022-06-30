@@ -44,7 +44,7 @@ Class - 4: Very Mild Demented (2240 images)*
 
 ## Conclusions
 
-By (1) list-wise removing missing data; (2) converting the classification problem to a binary one and standardizing features; and (3) manually setting the probability threshold for disease detection to 0.35, I was able to achieve **0.96 recall** and **0.95 accuracy** from my best model, a soft voting ensemble classifier made up of a guassianNB, and an AdaBoost classifier. Also i have choose this model because of the confusion matrix which is more better than other nodels.
+By (1) list-wise removing missing data; (2) converting the classification problem to a binary one and standardizing features; and (3) manually setting the probability threshold for disease detection to 0.35, I was able to achieve **0.99 recall** and **0.99 accuracy** from my best model, a soft voting ensemble classifier made up of a guassianNB, and an AdaBoost classifier. Also i have choose this model because of the confusion matrix which is more better than other nodels.
 
 ## Libraries
 
